@@ -1,16 +1,17 @@
 # personal_website
+personal website ui with Flutter
 
-Personal Website
+## Purpose of Project
 
-## Getting Started
+It's just demo I will create a backend for it and I wanna try it on real project for myself. Also I wanna try Flutter for website.
 
-This project is a starting point for a Flutter application.
+- Add summary
+- Social media links
+- Skills
+- Project in multiple sections.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img src="https://github.com/berkayceylan/flutter_personal_website/blob/main/ss/ss-1.png" />
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://github.com/berkayceylan/flutter_personal_website/blob/main/ss/ss-2.png" />
