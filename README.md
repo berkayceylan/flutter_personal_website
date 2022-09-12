@@ -1,4 +1,4 @@
-# personal_website
+# Personal Website
 personal website ui with Flutter
 
 ## Purpose of Project
