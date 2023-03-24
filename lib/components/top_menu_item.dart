@@ -28,7 +28,7 @@ class _TopMenuItemState extends State<TopMenuItem> {
         splashColor: Colors.amber,
         onTap: () {},
         child: Padding(
-          padding: EdgeInsets.symmetric(vertical: 15.0, horizontal: 25.0),
+          padding: const EdgeInsets.symmetric(vertical: 15.0, horizontal: 25.0),
           child: AnimatedDefaultTextStyle(
             duration: const Duration(milliseconds: 400),
             style: TextStyle(

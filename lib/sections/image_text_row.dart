@@ -1,10 +1,39 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:personal_website/components/social_media_icon.dart';
+import 'package:personal_website/database/personal_json.dart';
 import 'package:personal_website/utils/contants.dart';
 
-class ImageTextRow extends StatelessWidget {
+class ImageTextRow extends StatefulWidget {
   const ImageTextRow({Key? key}) : super(key: key);
+
+  @override
+  State<ImageTextRow> createState() => _ImageTextRowState();
+}
+
+class _ImageTextRowState extends State<ImageTextRow> {
+  PersonalJson personalJson = PersonalJson(
+      name: "name",
+      summary: "",
+      github: "",
+      instagram: "",
+      facebook: "",
+      linkedIn: "",
+      projectList: []);
+
+  void getInfo() async {
+    PersonalJson _personalJson = await getPersonalInfo();
+    setState(() {
+      personalJson = _personalJson;
+    });
+  }
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    getInfo();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +55,7 @@ class ImageTextRow extends StatelessWidget {
             child: Column(
               children: [
                 Text(
-                  "Berkay Ceylan",
+                  personalJson.name,
                   style: khandWritingTitle,
                   textAlign: TextAlign.left,
                 ),
@@ -35,8 +64,8 @@ class ImageTextRow extends StatelessWidget {
                 ),
                 Container(
                   constraints: const BoxConstraints(maxWidth: 600),
-                  child: const Text(
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla tristique ipsum. Fusce ac egestas mauris. Morbi nec interdum urna. Cras tempor semper dolor vel pharetra. Suspendisse nec ornare eros. Praesent nisi mauris, ultrices at tempor lobortis, interdum sed elit. Duis at maximus leo. Cras at diam at dui porta tempor et in orci. Integer eu condimentum tellus, a gravida ex. ",
+                  child: Text(
+                    personalJson.summary,
                     textAlign: TextAlign.left,
                   ),
                 ),
@@ -45,21 +74,25 @@ class ImageTextRow extends StatelessWidget {
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: const [
+                  children: [
                     SocialMediaIcon(
                       icon: FontAwesomeIcons.github,
                       iconColor: Colors.black,
+                      url: personalJson.github,
                     ),
                     SocialMediaIcon(
                       icon: FontAwesomeIcons.linkedin,
                       iconColor: kjqueryBlue,
+                      url: personalJson.linkedIn,
                     ),
                     SocialMediaIcon(
                       icon: FontAwesomeIcons.instagram,
+                      url: personalJson.instagram,
                     ),
                     SocialMediaIcon(
                       icon: FontAwesomeIcons.facebook,
                       iconColor: kjqueryBlue,
+                      url: personalJson.facebook,
                     ),
                   ],
                 ),

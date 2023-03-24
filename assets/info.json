@@ -1,0 +1,97 @@
+{
+  "name": "Berkay Ceylan",
+  "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla tristique ipsum. Fusce ac egestas mauris. Morbi nec interdum urna. Cras tempor semper dolor vel pharetra. Suspendisse nec ornare eros. Praesent nisi mauris, ultrices at tempor lobortis, interdum sed elit. Duis at maximus leo. Cras at diam at dui porta tempor et in orci. Integer eu condimentum tellus, a gravida ex. ",
+  "github": "https://github.com/berkayceylan/",
+  "instagram": "https://www.instagram.com/berkayceylan150/",
+  "facebook": "https://www.facebook.com/berkay150/",
+  "linkedIn": "https://www.linkedin.com/in/berkay-ceylan-1271591b4/",
+  "projects": [
+    {
+      "name": "time_bar_flutter",
+      "title": "Time Bar Flutter Package",
+      "is_education": false,
+      "flag": "Flutter",
+      "category": "Flutter",
+      "tags": [
+        "software",
+        "mobile",
+        "dart"
+      ],
+      "techs": [
+        "Flutter",
+        "Dart"
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/berkayceylan150/time_bar_flutter_package/main/pictures/screenshots.png",
+      "images": [],
+      "github": "https://github.com/berkayceylan/time_bar_flutter_package",
+      "short_detail": "Software Education Project",
+      "detail": "I've created a video for teach \"How to create time bar?\" in Flutter and \"How can we publish our codes on pub.dev?\""
+    },
+    {
+      "name": "evapp_flutter",
+      "title": "Evapp Flutter",
+      "is_education": false,
+      "flag": "Flutter",
+      "category": "Flutter",
+      "tags": [
+        "software",
+        "mobile",
+        "dart",
+        "flutter",
+        "video connection"
+      ],
+      "techs": [
+        "Flutter",
+        "Dart"
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/berkayceylan150/time_bar_flutter_package/main/pictures/screenshots.png",
+      "images": [],
+      "short_detail": "Freelance Job",
+      "detail": "I've created this project for customer."
+    },
+    {
+      "name": "music_player_electronjs",
+      "title": "Music Player ElectronJS",
+      "is_education": false,
+      "flag": "Flutter",
+      "category": "Flutter",
+      "tags": [
+        "software",
+        "mobile",
+        "dart"
+      ],
+      "techs": [
+        "ElectronJS",
+        "Javascript"
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/berkayceylan150/time_bar_flutter_package/main/pictures/screenshots.png",
+      "images": [],
+      "short_detail": "Freelance Job",
+      "detail": "I've created this project for my customer"
+    },
+    {
+      "name": "pure_website",
+      "title": "Pure Website",
+      "is_education": false,
+      "flag": "Flutter",
+      "category": "Flutter",
+      "tags": [
+        "software",
+        "mobile",
+        "dart"
+      ],
+      "techs": [
+        "PHP",
+        "MySQL",
+        "JQuery",
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/berkayceylan150/time_bar_flutter_package/main/pictures/screenshots.png",
+      "images": [],
+      "short_detail": "Freelance Job",
+      "detail": "I've created this project for my customer"
+    }
+  ]
+}

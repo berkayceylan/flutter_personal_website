@@ -14,3 +14,6 @@ final kmainTitle = GoogleFonts.abel(fontSize: 50, color: kRedColor);
 final ksmallTitle = GoogleFonts.abel(fontSize: 25, fontWeight: FontWeight.bold);
 
 const responsive_limit = 800;
+
+const kHomePageAddress = "/";
+const kProjectPageAdress = "project";
