@@ -31,18 +31,21 @@ class _ImageTextRowState extends State<ImageTextRow> {
 
   @override
   Widget build(BuildContext context) {
+    MediaQueryData queryData = MediaQuery.of(context);
     return Flex(
       mainAxisSize: MainAxisSize.max,
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.start,
       direction: Axis.horizontal,
       children: [
-        Flexible(
-          child: Image.asset(
-            "assets/images/my_image.jpeg",
-            fit: BoxFit.contain,
-          ),
-        ),
+        queryData.size.width > 800
+            ? Flexible(
+                child: Image.asset(
+                  "assets/images/my_image.jpeg",
+                  fit: BoxFit.contain,
+                ),
+              )
+            : SizedBox(),
         Flexible(
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 15),
@@ -53,6 +56,17 @@ class _ImageTextRowState extends State<ImageTextRow> {
                   style: khandWritingTitle,
                   textAlign: TextAlign.left,
                 ),
+                queryData.size.width < 800
+                    ? Column(
+                        children: [
+                          SizedBox(height: 10),
+                          Image.asset(
+                            "assets/images/my_image.jpeg",
+                            fit: BoxFit.contain,
+                          ),
+                        ],
+                      )
+                    : const SizedBox(),
                 const SizedBox(
                   height: 50,
                 ),
