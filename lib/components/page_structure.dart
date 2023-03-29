@@ -1,9 +1,15 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:personal_website/sections/block_title.dart';
-import 'package:personal_website/sections/image_text_row.dart';
-import 'package:personal_website/sections/projects.dart';
-import 'package:personal_website/sections/skills.dart';
-import 'package:personal_website/sections/top_menu.dart';
+import 'package:flutter/rendering.dart';
+class MyCustomScrollBehavior extends MaterialScrollBehavior {
+  // Override behavior methods and getters like dragDevices
+  @override
+  Set<PointerDeviceKind> get dragDevices => {
+    PointerDeviceKind.touch,
+    PointerDeviceKind.mouse,
+    // etc.
+  };
+}
 
 class PageStructure extends StatelessWidget {
   final List<Widget> children;
@@ -12,11 +18,18 @@ class PageStructure extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ListView(
-        scrollDirection: Axis.vertical,
-        shrinkWrap: true,
-        children: children
+      body: SingleChildScrollView(
+        child: ScrollConfiguration(
+          behavior: MyCustomScrollBehavior(),
+          child: ListView(
+            shrinkWrap: true,
+            physics: const BouncingScrollPhysics(),
+            children: children
+          ),
+        ),
       ),
     );
   }
 }
+
+

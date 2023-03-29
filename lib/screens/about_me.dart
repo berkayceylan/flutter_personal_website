@@ -32,14 +32,20 @@ class AboutMe extends StatelessWidget {
           divider: false,
         ),
         SizedBox(height: 30),
-        Projects(isEducation: false,),
+        Projects(
+          isEducation: false,
+        ),
         SizedBox(
           height: 20,
         ),
-        BlockTitle(text: "My Education Projects", subText: "My Education Projects"),
+        BlockTitle(
+          text: "My Education Projects",
+          subText: "",
+        ),
         SizedBox(height: 30),
-        Projects(isEducation: true,),
-
+        Projects(
+          isEducation: true,
+        ),
         Footer(),
       ],
     );

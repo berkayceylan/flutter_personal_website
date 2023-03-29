@@ -14,7 +14,7 @@ class SoftwareProjects extends StatelessWidget {
       children: [
         TopMenu(),
         SizedBox(height: 20),
-        BlockTitle(text: "My Software Projects", subText: "My Education Projects"),
+        BlockTitle(text: "My Software Projects"),
         SizedBox(height: 30),
         Projects(isEducation: false,),
 
