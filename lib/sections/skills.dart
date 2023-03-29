@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:personal_website/components/mini_box.dart';
 import 'package:personal_website/components/my_wrap.dart';
-import 'package:personal_website/utils/contants.dart';
+import 'package:personal_website/utils/constants.dart';
 
 class Skills extends StatelessWidget {
   const Skills({Key? key}) : super(key: key);

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:personal_website/utils/contants.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:personal_website/utils/constants.dart';
 import 'dart:html' as html;
 class SocialMediaIcon extends StatelessWidget {
   final Color iconColor;

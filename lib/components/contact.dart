@@ -18,7 +18,7 @@ class Contact extends StatelessWidget {
             children: [
               ContactList(
                 title: "Phone Numbers:",
-                contact1: "Turkish: $number1",
+                contact1: "Turkey: $number1",
                 contact2: "Czech: $number2",
               ),
             ],

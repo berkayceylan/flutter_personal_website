@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:personal_website/utils/contants.dart';
+import 'package:personal_website/utils/constants.dart';
 
 class ContactList extends StatelessWidget {
   final String title, contact1, contact2;

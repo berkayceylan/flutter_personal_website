@@ -4,7 +4,7 @@ import 'package:personal_website/components/my_wrap.dart';
 import 'package:personal_website/database/database_helpers.dart';
 import 'package:personal_website/database/project_json.dart';
 import 'package:go_router/go_router.dart';
-import 'package:personal_website/utils/contants.dart';
+import 'package:personal_website/utils/constants.dart';
 
 //Get project list from json
 //add is_education variable

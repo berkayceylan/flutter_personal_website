@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:personal_website/components/my_wrap.dart';
 import 'package:personal_website/components/top_menu_item.dart';
-import 'package:personal_website/utils/contants.dart';
+import 'package:personal_website/utils/constants.dart';
 
 class TopMenu extends StatelessWidget {
   const TopMenu({Key? key}) : super(key: key);

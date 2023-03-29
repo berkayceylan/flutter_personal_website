@@ -4,7 +4,7 @@ import 'package:personal_website/components/contact.dart';
 import 'package:personal_website/components/social_media_icon.dart';
 import 'package:personal_website/database/database_helpers.dart';
 import 'package:personal_website/database/personal_json.dart';
-import 'package:personal_website/utils/contants.dart';
+import 'package:personal_website/utils/constants.dart';
 
 class ImageTextRow extends StatefulWidget {
   const ImageTextRow({Key? key}) : super(key: key);
@@ -45,7 +45,7 @@ class _ImageTextRowState extends State<ImageTextRow> {
                   fit: BoxFit.contain,
                 ),
               )
-            : SizedBox(),
+            : const SizedBox(),
         Flexible(
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 15),
@@ -59,7 +59,7 @@ class _ImageTextRowState extends State<ImageTextRow> {
                 queryData.size.width < 800
                     ? Column(
                         children: [
-                          SizedBox(height: 10),
+                          const SizedBox(height: 10),
                           Image.asset(
                             "assets/images/my_image.jpeg",
                             fit: BoxFit.contain,

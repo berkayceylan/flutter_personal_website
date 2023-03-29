@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:personal_website/utils/contants.dart';
+import 'package:personal_website/utils/constants.dart';
 
 class BlockTitle extends StatelessWidget {
   final String text, subText;

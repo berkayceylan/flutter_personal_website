@@ -4,7 +4,7 @@ import 'package:personal_website/components/contact.dart';
 import 'package:personal_website/components/social_media_icon.dart';
 import 'package:personal_website/database/database_helpers.dart';
 import 'package:personal_website/database/personal_json.dart';
-import 'package:personal_website/utils/contants.dart';
+import 'package:personal_website/utils/constants.dart';
 
 class ImageLongerTextRow extends StatefulWidget {
   const ImageLongerTextRow({Key? key}) : super(key: key);

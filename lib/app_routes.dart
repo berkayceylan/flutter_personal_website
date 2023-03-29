@@ -5,7 +5,7 @@ import 'package:personal_website/screens/education_projects.dart';
 import 'package:personal_website/screens/homepage.dart';
 import 'package:personal_website/screens/project_page.dart';
 import 'package:personal_website/screens/software_projects.dart';
-import 'package:personal_website/utils/contants.dart';
+import 'package:personal_website/utils/constants.dart';
 
 final GoRouter appRoutes = GoRouter(
   routes: <RouteBase>[

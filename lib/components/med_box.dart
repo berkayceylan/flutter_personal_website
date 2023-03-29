@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:personal_website/components/single_word.dart';
-import 'package:personal_website/utils/contants.dart';
+import 'package:personal_website/utils/constants.dart';
 
 class MedBox extends StatelessWidget {
   final String title, explain, imgUrl, category;

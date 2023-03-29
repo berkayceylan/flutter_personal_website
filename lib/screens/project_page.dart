@@ -8,7 +8,7 @@ import 'package:personal_website/database/project_json.dart';
 import 'package:personal_website/sections/block_title.dart';
 import 'package:personal_website/sections/footer.dart';
 import 'package:personal_website/sections/top_menu.dart';
-import 'package:personal_website/utils/contants.dart';
+import 'package:personal_website/utils/constants.dart';
 import 'dart:html' as html;
 
 class ProjectPage extends StatefulWidget {
