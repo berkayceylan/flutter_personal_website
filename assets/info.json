@@ -1,11 +1,143 @@
 {
   "name": "Berkay Ceylan",
-  "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla tristique ipsum. Fusce ac egestas mauris. Morbi nec interdum urna. Cras tempor semper dolor vel pharetra. Suspendisse nec ornare eros. Praesent nisi mauris, ultrices at tempor lobortis, interdum sed elit. Duis at maximus leo. Cras at diam at dui porta tempor et in orci. Integer eu condimentum tellus, a gravida ex. ",
+  "summary": "I am a versatile elementary science teacher with a passion for innovation and creativity. I have experience in various projects, including the development of a robotic hand, a 3D biodiversity model, a digital puzzle using Arduino and NFC, and Augmented Reality applications. I have also created infographics as science teaching material and have taught robotics to undergraduate students. In terms of software development, I have created several apps, including a music player and a Periodic Table app in Flutter, as well as a customizable 15 Puzzle game. I am always looking for new challenges and opportunities to expand my skills and knowledge. My expertise in software development and my dedication to quality and innovation make me a valuable asset to any team.",
+  "about_me": "\t\t\t\tMy name is Berkay Ceylan, and I am a elementary science teacher. I have a passion for creating innovative projects that make a difference in people's lives. My love for technology and teaching led me to pursue a career in software development, and I am proud of the work that I have accomplished so far.\n\n\t\t\t\tI have completed several projects throughout my career that have helped me to hone my skills and gain valuable experience in the field. One of my most notable projects is a robotic hand that I created to teach students about servo motors, Bluetooth modules, and IR modules. This project was a great way for me to combine my love of robotics with my passion for education.\n\n\t\t\t\tIn addition to the robotic hand, I have also developed a 3D biodiversity model to teach students about the importance of biodiversity. I created a video that features 3D models of various plants and animals to make the learning experience more engaging and interactive.\n\n\t\t\t\tAnother project that I am particularly proud of is an augmented reality application that allows users to view 3D models and videos by holding their phones up to images. This project was a great way for me to explore the potential of AR technology and its applications in education.\n\n\t\t\t\tAs a teacher, I have completed several projects in various programming languages and frameworks.\n\n\t\t\t\tApart from these projects, I have also developed a music player using ElectronJS, a pure website using PHP, MySQL, HTML, CSS, JavaScript, and jQuery, and several other software applications.\n\n\t\t\t\tRecently, I've also created two new apps in Flutter. The first one is a Periodic Table app that features an interactive periodic table of elements with detailed information on each element, including their atomic number, symbol, name, electron configuration, and summary. The app also includes a 3D Bohr model for each element, making it a great resource for students studying chemistry.\n\n\t\t\t\tThe second app I've created is a 15 Puzzle game that features random shuffling of tiles at the beginning of the game, a move counter to keep track of the number of moves the player makes, and a timer to track the time it takes to solve the puzzle. The tiles are color-coded to show which ones are in the correct position and the tile and text styles are customizable.\n\n\t\t\t\tOverall, I am passionate about using technology to make a difference in people's lives, whether it is through education, entertainment, or productivity. I am constantly striving to improve my skills and knowledge in the field, and I look forward to taking on new challenges and creating even more innovative projects in the future.\n",
   "github": "https://github.com/berkayceylan/",
   "instagram": "https://www.instagram.com/berkayceylan150/",
   "facebook": "https://www.facebook.com/berkay150/",
   "linkedIn": "https://www.linkedin.com/in/berkay-ceylan-1271591b4/",
+  "whatsapp": "https://wa.me/905382706984",
+  "phone_number_tr": "+905382706984",
+  "phone_number_cz": "+420333333333",
   "projects": [
+    {
+      "name": "periodic_table_app",
+      "title": "Periodic Table Application",
+      "is_education": true,
+      "flag": "Flutter",
+      "category": "Flutter",
+      "tags": [
+        "FlutterApp", "PeriodicTableApp", "ChemistryEducation", "STEMeducation", "InteractiveLearning", "BohrModels", "ChemistryClass", "ChemistryStudents", "PeriodicTableOfElements", "ScienceApp", "EducationApp", "LearningMadeEasy", "TeachingTools", "InteractivePeriodicTable", "StudentTools", "EducationalApps"
+      ],
+      "techs": [
+        "Flutter",
+        "Dart"
+      ],
+      "thumbnail": "https://github.com/berkayceylan/periodic_table_flutter/raw/main/screenshots/periodic_table_1.gif",
+      "images": [
+        "https://github.com/berkayceylan/periodic_table_flutter/raw/main/screenshots/ss-1.png",
+        "https://github.com/berkayceylan/periodic_table_flutter/raw/main/screenshots/ss-2.png",
+        "https://github.com/berkayceylan/periodic_table_flutter/raw/main/screenshots/ss-3.png"
+      ],
+      "project_url": "https://github.com/berkayceylan/periodic_table_flutter",
+      "project_url_name": "Project Page",
+      "short_detail": "Mobile Application",
+      "detail": "I developed a Periodic Table app using Flutter which allows users to view and interact with the periodic table, view detailed information about each element, and visualize the Bohr 3D model for each element. The app is designed for students, educators, and chemistry enthusiasts who want to learn and explore the elements of the periodic table in an interactive and engaging way."
+    },
+    {
+      "name": "personal_website",
+      "title": "Personal Website",
+      "is_education": false,
+      "flag": "Flutter",
+      "category": "Flutter",
+      "tags": [
+        "flutter",
+        "personal website",
+        "portfolio",
+        "web development",
+        "responsive design"
+      ],
+      "techs": [
+        "Flutter",
+        "Dart"
+      ],
+      "thumbnail": "https://github.com/berkayceylan/flutter_personal_website/raw/main/ss/ss-1.png?raw=true",
+      "images": ["https://github.com/berkayceylan/flutter_personal_website/raw/main/ss/ss-1.png", "https://github.com/berkayceylan/flutter_personal_website/raw/main/ss/ss-2.png"],
+      "project_url": "https://github.com/berkayceylan/flutter_personal_website",
+      "project_url_name": "Project Page",
+      "short_detail": "Flutter Website Script",
+      "detail": "I have created a personal website using the Flutter framework. You are on it now :). The website showcases my skills in web development, as well as my personal projects and interests. Through the website, I have demonstrated my proficiency in using Flutter to design and develop responsive and user-friendly web applications."
+    },
+    {
+      "name": "bc_image_editor",
+      "title": "BC Image Editor",
+      "is_education": false,
+      "flag": "Flutter",
+      "category": "Flutter",
+      "tags": [
+        "Image processing",
+        "Image editing",
+        "Flutter",
+        "Dart",
+        "Package",
+        "pub dev"
+      ],
+      "techs": [
+        "Flutter",
+        "Dart"
+      ],
+      "thumbnail": "https://github.com/berkayceylan150/bc-image-editor/raw/master/media/examples/horizontal.gif",
+      "images": ["https://github.com/berkayceylan150/bc-image-editor/raw/master/media/examples/size.gif","https://github.com/berkayceylan150/bc-image-editor/raw/master/media/examples/horizontal.gif","https://github.com/berkayceylan150/bc-image-editor/raw/master/media/examples/vertical.gif","https://github.com/berkayceylan150/bc-image-editor/raw/master/media/examples/2d.gif","https://github.com/berkayceylan150/bc-image-editor/raw/master/media/examples/viewMode.gif"],
+      "project_url": "https://github.com/berkayceylan/bc_image_editor",
+      "project_url_name": "Project Page",
+      "short_detail": "Flutter Package",
+      "detail": "I have created an image editor package using the Flutter framework and published it on pub.dev. The package offers a range of features, including image resizing, 3D rotation on the x and y axes, 2D rotation of foreground images, and gesture-based editing of foreground images. It also includes a detailed view scale feature for enhanced image viewing. Through this package, I have demonstrated my proficiency in developing high-quality, user-friendly image editing software using Flutter."
+    },
+    {
+      "name": "merge_images",
+      "title": "Merge Images",
+      "is_education": false,
+      "flag": "Flutter",
+      "category": "Flutter",
+      "tags": [
+        "software",
+        "mobile",
+        "dart",
+        "flutter",
+        "Image processing",
+        "Image editing",
+        "Mobile Application"
+      ],
+      "techs": [
+        "Flutter",
+        "Dart"
+      ],
+      "thumbnail": "https://drive.google.com/uc?export=view&id=1DGo3EUkKWI4_QUuxrfZgCnO5Mz-gQ6W-",
+      "images": [
+        "https://github.com/berkayceylan/merge_images/raw/main/screenshots/ss-1.jpg",
+        "https://github.com/berkayceylan/merge_images/raw/main/screenshots/ss-2.jpg",
+        "https://github.com/berkayceylan/merge_images/raw/main/screenshots/ss-3.jpg",
+        "https://github.com/berkayceylan/merge_images/raw/main/screenshots/ss-4.jpg"],
+      "project_url": "https://github.com/berkayceylan/merge_images",
+      "project_url_name": "Project Page",
+      "short_detail": "Mobile Application",
+      "detail": "I have created an image editor package using the Flutter framework and published it on pub.dev. The package offers a range of features, including image resizing, 3D rotation on the x and y axes, 2D rotation of foreground images, and gesture-based editing of foreground images. It also includes a detailed view scale feature for enhanced image viewing. Using this package, I have developed an image editing application which I have published on the Google Play Store. Through this project, I have demonstrated my proficiency in developing high-quality, user-friendly software using Flutter, as well as my ability to take a project from conception to publication."
+    },
+    {
+      "name": "markdown_editor",
+      "title": "Markdown Editor",
+      "is_education": false,
+      "flag": "Web",
+      "category": "Web",
+      "tags": [
+        "Markdown",
+        "HTML",
+        "JavaScript",
+        "Text editor",
+        "Web development"
+      ],
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "thumbnail": "https://github.com/berkayceylan/markdown_editor_html_js/raw/main/ss.png",
+      "images": [],
+      "project_url": "https://github.com/berkayceylan/markdown_editor_html_js",
+      "project_url_name": "Project Page",
+      "short_detail": "Website Script",
+      "detail": "I have created a Markdown editor using HTML and JavaScript. The editor allows users to write and format text using Markdown syntax, which is then converted into HTML for display. It also includes a range of features, such as syntax highlighting, live preview, and keyboard shortcuts, to enhance the user experience. Through this project, I have demonstrated my proficiency in web development, as well as my ability to create functional and user-friendly text editors using web technologies."
+    },
     {
       "name": "time_bar_flutter",
       "title": "Time Bar Flutter Package",
@@ -13,9 +145,17 @@
       "flag": "Flutter",
       "category": "Flutter",
       "tags": [
-        "software",
-        "mobile",
-        "dart"
+        "Flutter",
+        "Dart",
+        "UI design",
+        "Animation",
+        "Custom widgets",
+        "Time management",
+        "Productivity",
+        "Mobile development",
+        "Open-source",
+        "Youtube",
+        "Education"
       ],
       "techs": [
         "Flutter",
@@ -23,9 +163,10 @@
       ],
       "thumbnail": "https://raw.githubusercontent.com/berkayceylan150/time_bar_flutter_package/main/pictures/screenshots.png",
       "images": [],
-      "github": "https://github.com/berkayceylan/time_bar_flutter_package",
+      "project_url": "https://github.com/berkayceylan/time_bar_flutter_package",
+      "project_url_name": "Project Page",
       "short_detail": "Software Education Project",
-      "detail": "I've created a video for teach \"How to create time bar?\" in Flutter and \"How can we publish our codes on pub.dev?\""
+      "detail": "I've created a video for teach \"How to create time bar?\" in Flutter and \"How can we publish our codes on pub.dev?\" The TimeBar Flutter package is an innovative time management tool. The package provides a customizable time bar widget that can be integrated into any Flutter app to help users track time more effectively. The time bar widget is highly customizable, allowing developers to adjust the look and functionality to suit their specific needs. The package includes various features, such as customizable time intervals, customizable colors and animations, and an interactive progress bar. The package is open source and available on GitHub, making it accessible to developers worldwide. The TimeBar Flutter package is an excellent example of how developers can leverage the power of Flutter to create innovative and useful tools for a wide range of applications."
     },
     {
       "name": "evapp_flutter",
@@ -38,36 +179,31 @@
         "mobile",
         "dart",
         "flutter",
-        "video connection"
+        "video connection",
+        "Python",
+        "Flutter",
+        "AI",
+        "Computer vision",
+        "Mobile development",
+        "Bluetooth",
+        "Accessibility",
+        "Collaboration",
+        "Real-time Video Connection"
       ],
       "techs": [
         "Flutter",
         "Dart"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/berkayceylan150/time_bar_flutter_package/main/pictures/screenshots.png",
-      "images": [],
-      "short_detail": "Freelance Job",
-      "detail": "I've created this project for customer."
-    },
-    {
-      "name": "music_player_electronjs",
-      "title": "Music Player ElectronJS",
-      "is_education": false,
-      "flag": "Flutter",
-      "category": "Flutter",
-      "tags": [
-        "software",
-        "mobile",
-        "dart"
+      "thumbnail": "https://github.com/berkayceylan/other-projects/raw/main/ss/thumbnail.png",
+      "images": [
+        "https://github.com/berkayceylan/other-projects/raw/main/ss/1.png",
+        "https://github.com/berkayceylan/other-projects/raw/main/ss/2.png",
+        "https://github.com/berkayceylan/other-projects/raw/main/ss/3.png"
       ],
-      "techs": [
-        "ElectronJS",
-        "Javascript"
-      ],
-      "thumbnail": "https://raw.githubusercontent.com/berkayceylan150/time_bar_flutter_package/main/pictures/screenshots.png",
-      "images": [],
+      "project_url": "https://drive.google.com/file/d/1XDIVLRlZk7YtmZhVMgFPSSdsqEBNnI5T/view?usp=share_link",
+      "project_url_name": "Get Apk",
       "short_detail": "Freelance Job",
-      "detail": "I've created this project for my customer"
+      "detail": "As a teacher, I have worked on a variety of projects that showcase my skills and expertise in different programming languages and technologies. One project that I am particularly proud of is a collaboration with a customer to create a program that can detect sign language and translate it into spoken words. The project consists of two programs: a Python program that uses AI to detect sign language from a live camera feed, and a Flutter program that can transfer the phone camera to a website as a live stream, receive the words detected by the Python program, and send them to a Bluetooth device for text-to-speech conversion. This innovative application has the potential to revolutionize communication for people with hearing impairments by providing a real-time, accurate translation of sign language. I am proud of my contribution to this project, which demonstrates my proficiency in both Python and Flutter, as well as my ability to work collaboratively with clients to achieve their goals."
     },
     {
       "name": "pure_website",
@@ -76,9 +212,14 @@
       "flag": "Flutter",
       "category": "Flutter",
       "tags": [
-        "software",
-        "mobile",
-        "dart"
+        "JavaScript",
+        "HTML",
+        "Web development",
+        "Scripting",
+        "Front-end development",
+        "Web design",
+        "Responsive design",
+        "Open-source"
       ],
       "techs": [
         "PHP",
@@ -88,10 +229,200 @@
         "CSS",
         "Javascript"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/berkayceylan150/time_bar_flutter_package/main/pictures/screenshots.png",
+      "thumbnail": "https://github.com/berkayceylan/website-script-pure/raw/master/ss/2.jpg",
+      "images": ["https://github.com/berkayceylan/website-script-pure/raw/master/ss/1.png", "https://github.com/berkayceylan/website-script-pure/raw/master/ss/2.jpg"],
+      "project_url": "https://github.com/berkayceylan/website-script-pure",
+      "project_url_name": "Project Page",
+      "short_detail": "Website Script",
+      "detail": "As a teacher, I am passionate about creating clean and functional websites that provide an optimal user experience. To that end, I have created a project called \"Pure Website,\" which is a minimalist website template designed to showcase content in a simple and elegant way. The template is built using HTML, CSS, and JavaScript, and it features a responsive design that adapts to different screen sizes. The \"Pure Website\" template is highly customizable, allowing users to modify the color scheme, font, and other design elements to match their preferences. The project is available on GitHub as an open-source repository, making it accessible to developers worldwide who want to build beautiful and functional websites. Overall, the \"Pure Website\" project demonstrates my expertise in web development and my commitment to creating high-quality, user-friendly websites that meet the needs of today's digital landscape."
+    },
+    {
+      "name": "robotic_hand",
+      "title": "Robotic Hand",
+      "is_education": true,
+      "flag": "Arduino",
+      "category": "Arduino",
+      "tags": [
+        "Bluetooth",
+        "Mobile app development",
+        "Robotics",
+        "Servo motors",
+        "IR module",
+        "3D printing",
+        "Innovation",
+        "DIY",
+        "Hardware"
+      ],
+      "techs": [
+        "Arduino",
+        "C",
+        "AppInventor"
+      ],
+      "thumbnail": "https://github.com/berkayceylan/other-projects/raw/main/robotic_hand/ss/1.png",
+      "images": ["https://github.com/berkayceylan/other-projects/raw/main/robotic_hand/ss/1.png", "https://github.com/berkayceylan/other-projects/raw/main/robotic_hand/ss/2.png"],
+      "project_url": "https://www.youtube.com/watch?v=SIXhPPS5Zoc",
+      "project_url_name": "Video (Turkish)",
+      "short_detail": "Arduino For Education",
+      "detail": "I developed 5 years ago a robotic hand using Arduino C and AppInventor, which can be controlled through a phone application using a HTC-06 Bluetooth module. The hand is equipped with servo motors that can be controlled with precision via a slider in the phone app, as well as through tilting the phone. The hand can also be controlled remotely using an IR module on the Arduino. Additionally, I utilized a 3D printer to create the hand, demonstrating my ability to work with advanced technology. This project showcases my technical proficiency in programming, as well as my creativity and passion for developing innovative solutions."
+    },
+    {
+      "name": "digital_puzzle",
+      "title": "Digital Puzzle",
+      "is_education": true,
+      "flag": "Arduino",
+      "category": "Arduino",
+      "tags": [
+        "RFID",
+        "Educational technology",
+        "Interactive learning",
+        "Visual stimuli",
+        "Customizable",
+        "Engagement",
+        "Fun learning",
+        "Innovation",
+        "Teaching",
+        "Customized learning",
+        "Student feedback"
+      ],
+      "techs": [
+        "Arduino",
+        "C"
+      ],
+      "thumbnail": "https://github.com/berkayceylan/other-projects/raw/main/digital_puzzle/ss/2.jpeg",
+      "images": [
+        "https://github.com/berkayceylan/other-projects/raw/main/digital_puzzle/ss/1.jpeg",
+        "https://github.com/berkayceylan/other-projects/raw/main/digital_puzzle/ss/2.jpeg"
+      ],
+      "project_url": "",
+      "project_url_name": "",
+      "short_detail": "Education Material",
+      "detail": "As an educator, I am constantly seeking innovative ways to make learning fun and engaging for my students. One project that I am particularly proud of is my digital puzzle, which combines the use of Arduino, RFID cards, and visual stimuli to teach various subjects.\n\nThe digital puzzle consists of a set of puzzle pieces, each with a unique RFID tag attached to it. These puzzle pieces correspond to different words and images related to the subject being taught. When a student correctly matches a puzzle piece with its corresponding image or word, a light turns on, indicating that the answer is correct.\n\nThe project is highly customizable, allowing me to easily change the images and words to suit the specific subject being taught. Moreover, the feedback from students has been overwhelmingly positive, with many remarking on how much more engaging and fun it is to learn using this method.\n\nOverall, the digital puzzle demonstrates my commitment to innovative teaching methods and my ability to leverage technology to enhance the learning experience."
+    },
+    {
+      "name": "digestive_system_infographic",
+      "title": "Digestive System Infographic",
+      "is_education": true,
+      "flag": "Infographic",
+      "category": "Infographic",
+      "tags": [
+        "Educational technology",
+        "Visual aids",
+        "Infographics",
+        "Digestive system",
+        "Anatomy",
+        "Science education",
+        "Student engagement",
+        "Clear communication",
+        "Simplified learning",
+        "Effective teaching"
+      ],
+      "techs": [
+        "Photoshop"
+      ],
+      "thumbnail": "https://github.com/berkayceylan/other-projects/raw/main/infographic/ss/1.png",
       "images": [],
-      "short_detail": "Freelance Job",
-      "detail": "I've created this project for my customer"
+      "project_url": "https://drive.google.com/file/d/1X3woNrgADyi9JW1Fqa4ygP9Yphc6MyLT/view",
+      "project_url_name": "Full Image Infographic",
+      "short_detail": "Education Material",
+      "detail": "As an educator, I believe that visual aids are an essential component of effective teaching. One project that I am particularly proud of is an infographic that I created on the digestive system using Photoshop. The infographic was designed to provide a clear and concise overview of the digestive system, including the organs involved, their functions, and the journey of food through the body. I used an image I found on Google as the basis for my design, but I customized it using Photoshop to create a professional and visually appealing final product. The infographic has been used in my classroom to help students understand the complex processes of the digestive system in a simple and engaging way. Overall, the project demonstrates my proficiency in graphic design tools and my ability to create effective visual aids to enhance the learning experience.\n\n\n ** I didn't create it from scratch I found an image and modified it **"
+    },
+    {
+      "name": "biodiversity_infographic",
+      "title": "Biodiversity Infographic",
+      "is_education": true,
+      "flag": "Infographic",
+      "category": "Infographic",
+      "tags": [
+        "education",
+        "environmental awareness",
+        "biodiversity",
+        "infographic",
+        "Photoshop",
+        "species",
+        "ecosystem",
+        "text",
+        "images",
+        "icons",
+        "visual aid",
+        "preservation",
+        "protection",
+        "graphic design",
+        "impactful",
+        "student engagement"
+      ],
+      "techs": [
+        "Photoshop"
+      ],
+      "thumbnail": "https://github.com/berkayceylan/other-projects/raw/main/infographic/ss/2.png",
+      "images": [],
+      "project_url": "https://drive.google.com/file/d/16qpK5eWICdG7xrxMjFQyuIWRsxlCoiAq/view",
+      "project_url_name": "Full Image Infographic",
+      "short_detail": "Education Material",
+      "detail": "As an educator, I strongly believe in the importance of promoting environmental awareness among my students. To achieve this, I created an infographic on biodiversity using Photoshop. The infographic is designed to highlight the various types of species found on our planet and their significance in maintaining a healthy ecosystem. I used a combination of text, images, and icons to provide a comprehensive overview of the topic. The design is visually appealing and easy to understand, making it an effective tool for engaging students. The biodiversity infographic has been used in my classroom to help students understand the importance of preserving and protecting our natural environment. Overall, this project demonstrates my passion for environmental education and my proficiency in graphic design tools to create impactful visual aids.\n\n\n ** I didn't create it from scratch I found an image and modified it **"
+    },
+    {
+      "name": "music_player_electronjs",
+      "title": "Music Player ElectronJS",
+      "is_education": false,
+      "flag": "ElectronJS",
+      "category": "ElectronJS",
+      "tags": [
+        "music player",
+        "Electron.js",
+        "front-end development",
+        "JavaScript",
+        "open-source",
+        "coding",
+        "project development",
+        "independent work"
+      ],
+      "techs": [
+        "Javascript",
+        "ElectronJS"
+      ],
+      "thumbnail": "https://github.com/berkayceylan150/music-player-electronjs/raw/master/screenshots/ss-2.PNG",
+      "images": ["https://github.com/berkayceylan150/music-player-electronjs/raw/master/screenshots/ss-1.PNG", "https://github.com/berkayceylan150/music-player-electronjs/raw/master/screenshots/ss-2.PNG"],
+      "project_url": "https://github.com/berkayceylan/music-player-electronjs",
+      "project_url_name": "Project Page",
+      "short_detail": "Personal Project",
+      "detail": "I have completed a music player project using Electron.js 3 years ago, which allows users to stream and organize their music. It was a personal project that I developed to improve my skills in front-end development, JavaScript, and Electron.js. The code is open-source and available for review. I believe this project demonstrates my abilities to work independently and shows my passion for coding."
+    },
+    {
+      "name": "digestive_system_ar",
+      "title": "Digestive System AR",
+      "is_education": true,
+      "flag": "Augmented Reality",
+      "category": "Augmented Reality",
+      "tags": [
+        "Augmented Reality",
+        "Educational Technology",
+        "STEM Education",
+        "Digestive System",
+        "Interactive Learning",
+        "3D Models",
+        "Videos",
+        "Magic Cards",
+        "Engaging Education",
+        "Immersive Experience",
+        "Innovative Teaching",
+        "Student Engagement",
+        "Technology in Education",
+        "Curriculum Development",
+        "Visual Learning"
+      ],
+      "techs": [
+        "Zapworks"
+      ],
+      "thumbnail": "https://github.com/berkayceylan/other-projects/raw/main/AR/ss/1.jpeg",
+      "images": [
+        "https://github.com/berkayceylan/other-projects/raw/main/AR/ss/1.jpeg",
+        "https://github.com/berkayceylan/other-projects/raw/main/AR/ss/2.jpeg",
+        "https://github.com/berkayceylan/other-projects/raw/main/AR/ss/3.jpg"
+      ],
+      "project_url": "",
+      "project_url_name": "",
+      "short_detail": "Education Material",
+      "detail": "I have designed and developed an augmented reality teaching tool for the digestive system using Zapworks. By incorporating 3D models and videos, I have created a unique and engaging learning experience for students. To add to the excitement, I presented the cards as magic cards, which not only captured students' attention but also made the learning experience more fun. This tool is a valuable asset for educators looking to teach this complex topic in an interactive and immersive way, and I am proud to have created it."
     }
   ]
 }

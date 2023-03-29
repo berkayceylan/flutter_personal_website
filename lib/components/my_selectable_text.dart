@@ -1,7 +1,9 @@
-class SelectableText extends StatelessWidget {
-  final String number;
+import 'package:flutter/material.dart';
 
-  const SelectableText({Key? key, required this.number})
+class MySelectableText extends StatelessWidget {
+  final String text;
+
+  const MySelectableText({Key? key, required this.text})
       : super(key: key);
 
   @override
@@ -13,8 +15,8 @@ class SelectableText extends StatelessWidget {
         color: Colors.grey[200],
       ),
       child: SelectableText(
-        number,
-        style: kphoneNumberTextStyle,
+        text,
+        style: TextStyle(fontSize: 16),
       ),
     );
   }

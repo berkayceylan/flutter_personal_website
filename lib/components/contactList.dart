@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:personal_website/utils/contants.dart';
 
 class ContactList extends StatelessWidget {
-  final String contact1, contact2;
+  final String title, contact1, contact2;
   const ContactList({
-    Key? key, required this.contact1, required this.contact2,
+    Key? key, required this.contact1, this.contact2 = "", required this.title,
   }) : super(key: key);
 
   @override
@@ -13,13 +13,19 @@ class ContactList extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'Phone Numbers:',
+          title,
           style: kboldText,
         ),
-        SizedBox(height: 10),
+        const SizedBox(height: 10),
         SelectableContact(contact: contact1),
-        SizedBox(height: 10),
-        SelectableContact(contact: contact2),
+        contact2.isNotEmpty ?
+        Column(
+          children: [
+            const SizedBox(height: 10),
+            SelectableContact(contact: contact2),
+          ],
+        ):const SizedBox(),
+        SizedBox(height: 10,),
       ],
     );
   }

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:personal_website/components/contact.dart';
 import 'package:personal_website/components/social_media_icon.dart';
+import 'package:personal_website/database/database_helpers.dart';
 import 'package:personal_website/database/personal_json.dart';
 import 'package:personal_website/utils/contants.dart';
 
@@ -12,15 +14,8 @@ class ImageTextRow extends StatefulWidget {
 }
 
 class _ImageTextRowState extends State<ImageTextRow> {
-  PersonalJson personalJson = PersonalJson(
-      name: "name",
-      summary: "",
-      github: "",
-      instagram: "",
-      facebook: "",
-      linkedIn: "",
-      projectList: []);
-
+  PersonalJson personalJson = PersonalJson();
+  final double _maxWidth = 600;
   void getInfo() async {
     PersonalJson _personalJson = await getPersonalInfo();
     setState(() {
@@ -30,7 +25,6 @@ class _ImageTextRowState extends State<ImageTextRow> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     getInfo();
   }
@@ -63,39 +57,56 @@ class _ImageTextRowState extends State<ImageTextRow> {
                   height: 50,
                 ),
                 Container(
-                  constraints: const BoxConstraints(maxWidth: 600),
+                  constraints: BoxConstraints(maxWidth: _maxWidth),
                   child: Text(
                     personalJson.summary,
                     textAlign: TextAlign.left,
+                    style: bodyTextStyle,
                   ),
                 ),
                 const SizedBox(
                   height: 50,
                 ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    SocialMediaIcon(
-                      icon: FontAwesomeIcons.github,
-                      iconColor: Colors.black,
-                      url: personalJson.github,
-                    ),
-                    SocialMediaIcon(
-                      icon: FontAwesomeIcons.linkedin,
-                      iconColor: kjqueryBlue,
-                      url: personalJson.linkedIn,
-                    ),
-                    SocialMediaIcon(
-                      icon: FontAwesomeIcons.instagram,
-                      url: personalJson.instagram,
-                    ),
-                    SocialMediaIcon(
-                      icon: FontAwesomeIcons.facebook,
-                      iconColor: kjqueryBlue,
-                      url: personalJson.facebook,
-                    ),
-                  ],
+                Container(
+                  constraints: BoxConstraints(maxWidth: _maxWidth),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      SocialMediaIcon(
+                        icon: FontAwesomeIcons.whatsapp,
+                        iconColor: Colors.green,
+                        url: personalJson.whatsapp,
+                      ),
+                      SocialMediaIcon(
+                        icon: FontAwesomeIcons.github,
+                        iconColor: Colors.black,
+                        url: personalJson.github,
+                      ),
+                      SocialMediaIcon(
+                        icon: FontAwesomeIcons.linkedin,
+                        iconColor: kjqueryBlue,
+                        url: personalJson.linkedIn,
+                      ),
+                      SocialMediaIcon(
+                        icon: FontAwesomeIcons.instagram,
+                        url: personalJson.instagram,
+                      ),
+                      SocialMediaIcon(
+                        icon: FontAwesomeIcons.facebook,
+                        iconColor: kjqueryBlue,
+                        url: personalJson.facebook,
+                      ),
+                    ],
+                  ),
                 ),
+                const SizedBox(
+                  height: 50,
+                ),
+                Contact(
+                  number1: personalJson.phoneNumberTr,
+                  number2: personalJson.phoneNumberCz,
+                  email: "berkayceylan150@gmail.com",
+                )
               ],
             ),
           ),

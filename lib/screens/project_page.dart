@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:personal_website/components/mini_box.dart';
+import 'package:personal_website/components/my_wrap.dart';
 import 'package:personal_website/components/page_structure.dart';
-import 'package:personal_website/database/personal_json.dart';
+import 'package:personal_website/components/single_word.dart';
+import 'package:personal_website/database/database_helpers.dart';
 import 'package:personal_website/database/project_json.dart';
 import 'package:personal_website/sections/block_title.dart';
+import 'package:personal_website/sections/footer.dart';
 import 'package:personal_website/sections/top_menu.dart';
-import 'package:http/http.dart' as http;
+import 'package:personal_website/utils/contants.dart';
+import 'dart:html' as html;
 
 class ProjectPage extends StatefulWidget {
   final String name;
@@ -17,27 +20,27 @@ class ProjectPage extends StatefulWidget {
 }
 
 class _ProjectPageState extends State<ProjectPage> {
-  ProjectJson projectJson = ProjectJson(name: "", title: "", flag: "", category: "", thumbnail: "", shortdetail: "", detail: "");
-  String githubDetail = "";
-  void getProject() async{
+  ProjectJson projectJson = ProjectJson();
+  void getProject() async {
     List<ProjectJson> projectJsonList = await getProjectList();
-    for(final json in projectJsonList){
-      if(json.name == widget.name){
+    for (final json in projectJsonList) {
+      if (json.name == widget.name) {
         setState(() => projectJson = json);
-        githubDetail = await http.read(Uri.parse('https://raw.githubusercontent.com/berkayceylan/time_bar_flutter_package/main/README.md'));
+        print(projectJson.tags.toString());
         break;
       }
     }
   }
+
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
     getProject();
   }
+
   @override
   Widget build(BuildContext context) {
-
     return PageStructure(
       children: [
         const TopMenu(),
@@ -51,7 +54,6 @@ class _ProjectPageState extends State<ProjectPage> {
               child: Image.network(
                 projectJson.thumbnail,
                 fit: BoxFit.contain,
-
               ),
             ),
             Container(
@@ -59,18 +61,94 @@ class _ProjectPageState extends State<ProjectPage> {
               constraints: const BoxConstraints(maxWidth: 800),
               child: Column(
                 children: [
-                  const SizedBox(height: 30,),
-                  Text(projectJson.detail),
-                  const SizedBox(height: 30,),
-                  const MiniBox(
-                    text: "More Detail",
-                    icon: FontAwesomeIcons.github,
+                  const SizedBox(
+                    height: 30,
+                  ),
+                  Text(
+                    projectJson.detail,
+                    style: bodyTextStyle,
+                  ),
+                  const SizedBox(
+                    height: 10,
+                  ),
+                  Row(
+                    children: [
+                      const Text(
+                        "Technologies",
+                        style: kboldText,
+                      ),
+                      const SizedBox(
+                        width: 10,
+                      ),
+                      MyWrap(
+                        children: List.generate(
+                          projectJson.techs.length,
+                          (index) => SingleWord(
+                            word: projectJson.techs.elementAt(index),
+                            color: kDarkPurpleColor,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(
+                    height: 10,
+                  ),
+                  const SizedBox(
+                    height: 30,
+                  ),
+                  MouseRegion(
+                    cursor: SystemMouseCursors.click,
+                    child: GestureDetector(
+                      onTap: () {
+                        html.window.open(projectJson.projectURL, "_blank");
+                      },
+                      child: projectJson.projectURL.isEmpty
+                          ? const SizedBox()
+                          : MiniBox(
+                              text: projectJson.projectURLName,
+                              icon: Icons.touch_app,
+                            ),
+                    ),
                   ),
                 ],
               ),
             ),
           ],
-        )
+        ),
+        projectJson.images.isNotEmpty
+            ? Column(
+                children: [
+                  const BlockTitle(
+                    text: "Images",
+                  ),
+                  MyWrap(
+                    children: List.generate(
+                      projectJson.images.length,
+                      (index) => Container(
+                        constraints: const BoxConstraints(maxHeight: 800),
+                        child: Image.network(
+                          projectJson.images.elementAt(index),
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              )
+            : const SizedBox(),
+        const SizedBox(
+          height: 20,
+        ),
+        MyWrap(
+          children: List.generate(
+            projectJson.tags.length,
+            (index) => SingleWord(
+              word: projectJson.tags.elementAt(index),
+              color: kDarkBlueColor,
+            ),
+          ),
+        ),
+        const Footer(),
       ],
     );
   }

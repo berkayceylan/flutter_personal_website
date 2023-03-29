@@ -4,7 +4,8 @@ import 'package:personal_website/utils/contants.dart';
 class TopMenuItem extends StatefulWidget {
   final String text;
   final TextAlign textAlign;
-  const TopMenuItem({Key? key, this.text = "", this.textAlign = TextAlign.left})
+  final void Function()? onTap;
+  const TopMenuItem({Key? key, this.text = "", this.textAlign = TextAlign.left, this.onTap})
       : super(key: key);
 
   @override
@@ -19,6 +20,7 @@ class _TopMenuItemState extends State<TopMenuItem> {
     return Container(
       color: kLightBg,
       child: InkWell(
+
         onHover: (val) {
           setState(() {
             _isHover = val;
@@ -26,7 +28,7 @@ class _TopMenuItemState extends State<TopMenuItem> {
           });
         },
         splashColor: Colors.amber,
-        onTap: () {},
+        onTap: widget.onTap,
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 15.0, horizontal: 25.0),
           child: AnimatedDefaultTextStyle(

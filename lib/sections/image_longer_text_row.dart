@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:personal_website/components/phoneNumberList.dart';
+import 'package:personal_website/components/contact.dart';
 import 'package:personal_website/components/social_media_icon.dart';
 import 'package:personal_website/database/database_helpers.dart';
 import 'package:personal_website/database/personal_json.dart';
 import 'package:personal_website/utils/contants.dart';
 
-class ImageTextRow extends StatefulWidget {
-  const ImageTextRow({Key? key}) : super(key: key);
+class ImageLongerTextRow extends StatefulWidget {
+  const ImageLongerTextRow({Key? key}) : super(key: key);
 
   @override
-  State<ImageTextRow> createState() => _ImageTextRowState();
+  State<ImageLongerTextRow> createState() => _ImageTextRowState();
 }
 
-class _ImageTextRowState extends State<ImageTextRow> {
+class _ImageTextRowState extends State<ImageLongerTextRow> {
   PersonalJson personalJson = PersonalJson();
 
   void getInfo() async {
@@ -37,12 +37,7 @@ class _ImageTextRowState extends State<ImageTextRow> {
       crossAxisAlignment: CrossAxisAlignment.start,
       direction: Axis.horizontal,
       children: [
-        Flexible(
-          child: Image.asset(
-            "assets/images/my_image.jpeg",
-            fit: BoxFit.contain,
-          ),
-        ),
+
         Flexible(
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 15),
@@ -54,63 +49,66 @@ class _ImageTextRowState extends State<ImageTextRow> {
                   textAlign: TextAlign.left,
                 ),
                 const SizedBox(
-                  height: 50,
+                  height: 10,
                 ),
+                const SizedBox(height: 20,),
                 Container(
                   constraints: const BoxConstraints(maxWidth: 600),
                   child: Text(
                     personalJson.aboutMe,
                     textAlign: TextAlign.left,
+                    style: bodyTextStyle,
                   ),
                 ),
                 const SizedBox(
                   height: 50,
                 ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    SocialMediaIcon(
-                      icon: FontAwesomeIcons.whatsapp,
-                      iconColor: Colors.green,
-                      url: personalJson.whatsapp,
-                    ),
-                    SocialMediaIcon(
-                      icon: FontAwesomeIcons.github,
-                      iconColor: Colors.black,
-                      url: personalJson.github,
-                    ),
-                    SocialMediaIcon(
-                      icon: FontAwesomeIcons.linkedin,
-                      iconColor: kjqueryBlue,
-                      url: personalJson.linkedIn,
-                    ),
-                    SocialMediaIcon(
-                      icon: FontAwesomeIcons.instagram,
-                      url: personalJson.instagram,
-                    ),
-                    SocialMediaIcon(
-                      icon: FontAwesomeIcons.facebook,
-                      iconColor: kjqueryBlue,
-                      url: personalJson.facebook,
-                    ),
-                  ],
+                Container(
+                  constraints: const BoxConstraints(maxWidth: 600),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      SocialMediaIcon(
+                        icon: FontAwesomeIcons.whatsapp,
+                        iconColor: Colors.green,
+                        url: personalJson.whatsapp,
+                      ),
+                      SocialMediaIcon(
+                        icon: FontAwesomeIcons.github,
+                        iconColor: Colors.black,
+                        url: personalJson.github,
+                      ),
+                      SocialMediaIcon(
+                        icon: FontAwesomeIcons.linkedin,
+                        iconColor: kjqueryBlue,
+                        url: personalJson.linkedIn,
+                      ),
+                      SocialMediaIcon(
+                        icon: FontAwesomeIcons.instagram,
+                        url: personalJson.instagram,
+                      ),
+                      SocialMediaIcon(
+                        icon: FontAwesomeIcons.facebook,
+                        iconColor: kjqueryBlue,
+                        url: personalJson.facebook,
+                      ),
+                    ],
+                  ),
                 ),
                 const SizedBox(
                   height: 50,
                 ),
-                Row(
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.start,
-                  children: [
-                    PhoneNumberList(
-                      number1: "Turkish: ${personalJson.phoneNumberTr}",
-                      number2: "Czech: ${personalJson.phoneNumberCz}",
-                    ),
-                  ],
-                ),
+                Contact(
+                  number1: personalJson.phoneNumberTr,
+                  number2: personalJson.phoneNumberCz,
+                  email: "berkayceylan150@gmail.com",
+                )
               ],
             ),
           ),
+        ),
+        const SizedBox(
+          height: 50,
         ),
       ],
     );

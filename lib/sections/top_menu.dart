@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+import 'package:personal_website/components/my_wrap.dart';
 import 'package:personal_website/components/top_menu_item.dart';
+import 'package:personal_website/utils/contants.dart';
 
 class TopMenu extends StatelessWidget {
   const TopMenu({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return const Row(
-      mainAxisAlignment: MainAxisAlignment.center,
+    return MyWrap(
       children: [
         // TopMenuItem(
         //   text: "",
@@ -15,12 +17,19 @@ class TopMenu extends StatelessWidget {
         // TopMenuItem(text: "   "),
         TopMenuItem(
           text: "Homepage",
+          onTap: () => context.go("/"),
         ),
         TopMenuItem(
           text: "About Me",
+          onTap: () => context.go("/$kAboutMeAddress"),
         ),
         TopMenuItem(
-          text: "Projects",
+          text: "Education Projects",
+          onTap: () => context.go("/$kEducationProjectsAddress"),
+        ),
+        TopMenuItem(
+          text: "Software Projects",
+          onTap: () => context.go("/$kSoftwareProjectsAddress"),
         ),
         // Expanded(
         //   child: TopMenuItem(

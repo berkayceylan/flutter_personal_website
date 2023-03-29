@@ -10,7 +10,7 @@ class Skills extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MyWrap(
+    return const MyWrap(
       maxWidth: 820,
       children: [
         MiniBox(
@@ -29,7 +29,7 @@ class Skills extends StatelessWidget {
           iconColor: kjsYellow,
         ),
         MiniBox(
-          text: "JQuery  ",
+          text: "JQuery",
           icon: FontAwesomeIcons.js,
           iconColor: kjqueryBlue,
         ),
@@ -38,6 +38,11 @@ class Skills extends StatelessWidget {
           text: "DJango",
           icon: FontAwesomeIcons.python,
           iconColor: kjsYellow,
+        ),
+        MiniBox(
+          text: "Arduino",
+          icon: FontAwesomeIcons.a,
+          iconColor: kRedColor,
         ),
         MiniBox(
           text: "MySQL",
@@ -49,11 +54,7 @@ class Skills extends StatelessWidget {
           icon: FontAwesomeIcons.php,
           iconColor: kjqueryBlue,
         ),
-        MiniBox(
-          text: "CodeIgniter",
-          icon: FontAwesomeIcons.fireFlameCurved,
-          iconColor: kRedColor,
-        ),
+
       ],
     );
   }

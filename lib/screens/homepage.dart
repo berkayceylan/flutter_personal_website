@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:personal_website/components/page_structure.dart';
 import 'package:personal_website/sections/block_title.dart';
+import 'package:personal_website/sections/footer.dart';
 import 'package:personal_website/sections/image_text_row.dart';
 import 'package:personal_website/sections/projects.dart';
 import 'package:personal_website/sections/skills.dart';
@@ -26,21 +27,20 @@ class Homepage extends StatelessWidget {
         Skills(),
         SizedBox(height: 20),
         BlockTitle(
-          text: "My Projects",
-          subText: "My Software Projects",
+          text: "My Software Projects",
+          subText: "",
           divider: false,
         ),
         SizedBox(height: 30),
-        Projects(),
+        Projects(isEducation: false,),
         SizedBox(
           height: 20,
         ),
-        BlockTitle(text: "My Projects", subText: "My Education Projects"),
+        BlockTitle(text: "My Education Projects", subText: "My Education Projects"),
         SizedBox(height: 30),
-        Projects(),
-        SizedBox(
-          height: 300,
-        ),
+        Projects(isEducation: true,),
+
+        Footer(),
       ],
     );
   }
