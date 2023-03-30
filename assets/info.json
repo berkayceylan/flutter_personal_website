@@ -423,6 +423,38 @@
       "project_url_name": "",
       "short_detail": "Education Material",
       "detail": "I have designed and developed an augmented reality teaching tool for the digestive system using Zapworks. By incorporating 3D models and videos, I have created a unique and engaging learning experience for students. To add to the excitement, I presented the cards as magic cards, which not only captured students' attention but also made the learning experience more fun. This tool is a valuable asset for educators looking to teach this complex topic in an interactive and immersive way, and I am proud to have created it."
-    }
+    },
+    {
+      "name": "3d_biodiversity_model",
+      "title": "3D Biodiversity Model",
+      "is_education": true,
+      "flag": "Sketchup",
+      "category": "Sketchup",
+      "tags": [
+        "educator",
+        "learning",
+        "3D modeling",
+        "biodiversity",
+        "visualization",
+        "technology",
+        "unique learning experience",
+        "students",
+        "education"
+      ],
+      "techs": [
+        "Sketchup"
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/berkayceylan/other-projects/main/3d_biodiversity/ss/2.png",
+      "images": [
+        "https://raw.githubusercontent.com/berkayceylan/other-projects/main/3d_biodiversity/ss/1.png",
+        "https://raw.githubusercontent.com/berkayceylan/other-projects/main/3d_biodiversity/ss/2.png",
+        "https://raw.githubusercontent.com/berkayceylan/other-projects/main/3d_biodiversity/ss/3.png",
+        "https://raw.githubusercontent.com/berkayceylan/other-projects/main/3d_biodiversity/ss/4.png",
+        "https://raw.githubusercontent.com/berkayceylan/other-projects/main/3d_biodiversity/ss/5.png"
+      ],
+      "project_url": "https://drive.google.com/file/d/14WOOMwhV5tkogjz8wZnhW0cqOGOvzCLN/view?usp=share_link",
+      "project_url_name": "Video",
+      "short_detail": "Education Material",
+      "detail": "As an educator, I understand the importance of making learning fun and engaging for students. That's why I created a 3D model video using Sketchup to teach biodiversity. The video showcases various 3D models of different plant and animal species, helping students visualize and understand the complexity of our natural world. Through this project, I was able to combine my passion for teaching with my love for technology, and create a unique learning experience for my students. Seeing their enthusiasm and interest in the subject matter was truly rewarding, and I'm excited to continue using technology to enhance education in the future."}
   ]
 }
