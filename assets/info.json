@@ -29,7 +29,7 @@
         "https://raw.githubusercontent.com/berkayceylan/periodic_table_flutter/main/screenshots/ss-2.png",
         "https://raw.githubusercontent.com/berkayceylan/periodic_table_flutter/main/screenshots/ss-3.png"
       ],
-      "project_url": "https://raw.githubusercontent.com/berkayceylan/periodic_table_flutter",
+      "project_url": "https://github.com/berkayceylan/periodic_table_flutter",
       "project_url_name": "Project Page",
       "short_detail": "Mobile Application",
       "detail": "I developed a Periodic Table app using Flutter which allows users to view and interact with the periodic table, view detailed information about each element, and visualize the Bohr 3D model for each element. The app is designed for students, educators, and chemistry enthusiasts who want to learn and explore the elements of the periodic table in an interactive and engaging way."
@@ -53,7 +53,7 @@
       ],
       "thumbnail": "https://raw.githubusercontent.com/berkayceylan/flutter_personal_website/main/ss/ss-1.png?raw=true",
       "images": ["https://raw.githubusercontent.com/berkayceylan/flutter_personal_website/main/ss/ss-1.png", "https://raw.githubusercontent.com/berkayceylan/flutter_personal_website/main/ss/ss-2.png"],
-      "project_url": "https://raw.githubusercontent.com/berkayceylan/flutter_personal_website",
+      "project_url": "https://github.com/berkayceylan/flutter_personal_website",
       "project_url_name": "Project Page",
       "short_detail": "Flutter Website Script",
       "detail": "I have created a personal website using the Flutter framework. You are on it now :). The website showcases my skills in web development, as well as my personal projects and interests. Through the website, I have demonstrated my proficiency in using Flutter to design and develop responsive and user-friendly web applications."
@@ -78,7 +78,7 @@
       ],
       "thumbnail": "https://raw.githubusercontent.com/berkayceylan150/bc-image-editor/master/media/examples/horizontal.gif",
       "images": ["https://raw.githubusercontent.com/berkayceylan150/bc-image-editor/master/media/examples/size.gif","https://raw.githubusercontent.com/berkayceylan150/bc-image-editor/master/media/examples/horizontal.gif","https://raw.githubusercontent.com/berkayceylan150/bc-image-editor/master/media/examples/vertical.gif","https://raw.githubusercontent.com/berkayceylan150/bc-image-editor/master/media/examples/2d.gif","https://raw.githubusercontent.com/berkayceylan150/bc-image-editor/master/media/examples/viewMode.gif"],
-      "project_url": "https://raw.githubusercontent.com/berkayceylan/bc_image_editor",
+      "project_url": "https://github.com/berkayceylan/bc_image_editor",
       "project_url_name": "Project Page",
       "short_detail": "Flutter Package",
       "detail": "I have created an image editor package using the Flutter framework and published it on pub.dev. The package offers a range of features, including image resizing, 3D rotation on the x and y axes, 2D rotation of foreground images, and gesture-based editing of foreground images. It also includes a detailed view scale feature for enhanced image viewing. Through this package, I have demonstrated my proficiency in developing high-quality, user-friendly image editing software using Flutter."
@@ -108,7 +108,7 @@
         "https://raw.githubusercontent.com/berkayceylan/merge_images/main/screenshots/ss-2.jpg",
         "https://raw.githubusercontent.com/berkayceylan/merge_images/main/screenshots/ss-3.jpg",
         "https://raw.githubusercontent.com/berkayceylan/merge_images/main/screenshots/ss-4.jpg"],
-      "project_url": "https://raw.githubusercontent.com/berkayceylan/merge_images",
+      "project_url": "https://github.com/berkayceylan/merge_images",
       "project_url_name": "Project Page",
       "short_detail": "Mobile Application",
       "detail": "I have created an image editor package using the Flutter framework and published it on pub.dev. The package offers a range of features, including image resizing, 3D rotation on the x and y axes, 2D rotation of foreground images, and gesture-based editing of foreground images. It also includes a detailed view scale feature for enhanced image viewing. Using this package, I have developed an image editing application which I have published on the Google Play Store. Through this project, I have demonstrated my proficiency in developing high-quality, user-friendly software using Flutter, as well as my ability to take a project from conception to publication."
@@ -133,7 +133,7 @@
       ],
       "thumbnail": "https://raw.githubusercontent.com/berkayceylan/markdown_editor_html_js/main/ss.png",
       "images": [],
-      "project_url": "https://raw.githubusercontent.com/berkayceylan/markdown_editor_html_js",
+      "project_url": "https://github.com/berkayceylan/markdown_editor_html_js",
       "project_url_name": "Project Page",
       "short_detail": "Website Script",
       "detail": "I have created a Markdown editor using HTML and JavaScript. The editor allows users to write and format text using Markdown syntax, which is then converted into HTML for display. It also includes a range of features, such as syntax highlighting, live preview, and keyboard shortcuts, to enhance the user experience. Through this project, I have demonstrated my proficiency in web development, as well as my ability to create functional and user-friendly text editors using web technologies."
@@ -163,7 +163,7 @@
       ],
       "thumbnail": "https://raw.githubusercontent.com/berkayceylan150/time_bar_flutter_package/main/pictures/screenshots.png",
       "images": [],
-      "project_url": "https://raw.githubusercontent.com/berkayceylan/time_bar_flutter_package",
+      "project_url": "https://github.com/berkayceylan/time_bar_flutter_package",
       "project_url_name": "Project Page",
       "short_detail": "Software Education Project",
       "detail": "I've created a video for teach \"How to create time bar?\" in Flutter and \"How can we publish our codes on pub.dev?\" The TimeBar Flutter package is an innovative time management tool. The package provides a customizable time bar widget that can be integrated into any Flutter app to help users track time more effectively. The time bar widget is highly customizable, allowing developers to adjust the look and functionality to suit their specific needs. The package includes various features, such as customizable time intervals, customizable colors and animations, and an interactive progress bar. The package is open source and available on GitHub, making it accessible to developers worldwide. The TimeBar Flutter package is an excellent example of how developers can leverage the power of Flutter to create innovative and useful tools for a wide range of applications."
@@ -231,7 +231,7 @@
       ],
       "thumbnail": "https://raw.githubusercontent.com/berkayceylan/website-script-pure/master/ss/2.jpg",
       "images": ["https://raw.githubusercontent.com/berkayceylan/website-script-pure/master/ss/1.png", "https://raw.githubusercontent.com/berkayceylan/website-script-pure/master/ss/2.jpg"],
-      "project_url": "https://raw.githubusercontent.com/berkayceylan/website-script-pure",
+      "project_url": "https://github.com/berkayceylan/website-script-pure",
       "project_url_name": "Project Page",
       "short_detail": "Website Script",
       "detail": "As a teacher, I am passionate about creating clean and functional websites that provide an optimal user experience. To that end, I have created a project called \"Pure Website,\" which is a minimalist website template designed to showcase content in a simple and elegant way. The template is built using HTML, CSS, and JavaScript, and it features a responsive design that adapts to different screen sizes. The \"Pure Website\" template is highly customizable, allowing users to modify the color scheme, font, and other design elements to match their preferences. The project is available on GitHub as an open-source repository, making it accessible to developers worldwide who want to build beautiful and functional websites. Overall, the \"Pure Website\" project demonstrates my expertise in web development and my commitment to creating high-quality, user-friendly websites that meet the needs of today's digital landscape."
@@ -382,7 +382,7 @@
       ],
       "thumbnail": "https://raw.githubusercontent.com/berkayceylan150/music-player-electronjs/master/screenshots/ss-2.PNG",
       "images": ["https://raw.githubusercontent.com/berkayceylan150/music-player-electronjs/master/screenshots/ss-1.PNG", "https://raw.githubusercontent.com/berkayceylan150/music-player-electronjs/master/screenshots/ss-2.PNG"],
-      "project_url": "https://raw.githubusercontent.com/berkayceylan/music-player-electronjs",
+      "project_url": "https://github.com/berkayceylan/music-player-electronjs",
       "project_url_name": "Project Page",
       "short_detail": "Personal Project",
       "detail": "I have completed a music player project using Electron.js 3 years ago, which allows users to stream and organize their music. It was a personal project that I developed to improve my skills in front-end development, JavaScript, and Electron.js. The code is open-source and available for review. I believe this project demonstrates my abilities to work independently and shows my passion for coding."
