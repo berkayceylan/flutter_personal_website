@@ -26,7 +26,6 @@ class _ProjectPageState extends State<ProjectPage> {
     for (final json in projectJsonList) {
       if (json.name == widget.name) {
         setState(() => projectJson = json);
-        print(projectJson.tags.toString());
         break;
       }
     }
@@ -99,7 +98,7 @@ class _ProjectPageState extends State<ProjectPage> {
                   ),
                   MouseRegion(
                     cursor: SystemMouseCursors.click,
-                    child: GestureDetector(
+                    child: InkWell(
                       onTap: () {
                         html.window.open(projectJson.projectURL, "_blank");
                       },
