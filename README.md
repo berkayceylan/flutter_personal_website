@@ -3,13 +3,14 @@ personal website ui with Flutter
 
 ## Purpose of Project
 
-It's just demo I will create a backend for it and I wanna try it on real project for myself. Also I wanna try Flutter for website.
+When I started the project, I wanted to try Flutter for the Web as well.
 
 - Add summary
 - Social media links
 - Skills
 - Project in multiple sections.
-
+- Json database
+- Every projects have images category flag tags thumbnail description
 ## Screenshots
 
 <img src="https://github.com/berkayceylan/flutter_personal_website/blob/main/ss/ss-1.png" />
