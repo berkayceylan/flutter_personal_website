@@ -1,8 +1,9 @@
 {
   "name": "Berkay Ceylan",
+  "title" : "",
   "summary": "I am a versatile elementary science teacher with a passion for innovation and creativity. I have experience in various projects, including the development of a robotic hand, a 3D biodiversity model, a digital puzzle using Arduino and NFC, and Augmented Reality applications. I have also created infographics as science teaching material and have taught robotics to undergraduate students. In terms of software development, I have created several apps, including a music player and a Periodic Table app in Flutter, as well as a customizable 15 Puzzle game. I am always looking for new challenges and opportunities to expand my skills and knowledge. My expertise in software development and my dedication to quality and innovation make me a valuable asset to any team.",
   "about_me": "\t\t\t\tMy name is Berkay Ceylan, and I am a elementary science teacher. I have a passion for creating innovative projects that make a difference in people's lives. My love for technology and teaching led me to pursue a career in software development, and I am proud of the work that I have accomplished so far.\n\n\t\t\t\tI have completed several projects throughout my career that have helped me to hone my skills and gain valuable experience in the field. One of my most notable projects is a robotic hand that I created to teach students about servo motors, Bluetooth modules, and IR modules. This project was a great way for me to combine my love of robotics with my passion for education.\n\n\t\t\t\tIn addition to the robotic hand, I have also developed a 3D biodiversity model to teach students about the importance of biodiversity. I created a video that features 3D models of various plants and animals to make the learning experience more engaging and interactive.\n\n\t\t\t\tAnother project that I am particularly proud of is an augmented reality application that allows users to view 3D models and videos by holding their phones up to images. This project was a great way for me to explore the potential of AR technology and its applications in education.\n\n\t\t\t\tAs a teacher, I have completed several projects in various programming languages and frameworks.\n\n\t\t\t\tApart from these projects, I have also developed a music player using ElectronJS, a pure website using PHP, MySQL, HTML, CSS, JavaScript, and jQuery, and several other software applications.\n\n\t\t\t\tRecently, I've also created two new apps in Flutter. The first one is a Periodic Table app that features an interactive periodic table of elements with detailed information on each element, including their atomic number, symbol, name, electron configuration, and summary. The app also includes a 3D Bohr model for each element, making it a great resource for students studying chemistry.\n\n\t\t\t\tThe second app I've created is a 15 Puzzle game that features random shuffling of tiles at the beginning of the game, a move counter to keep track of the number of moves the player makes, and a timer to track the time it takes to solve the puzzle. The tiles are color-coded to show which ones are in the correct position and the tile and text styles are customizable.\n\n\t\t\t\tOverall, I am passionate about using technology to make a difference in people's lives, whether it is through education, entertainment, or productivity. I am constantly striving to improve my skills and knowledge in the field, and I look forward to taking on new challenges and creating even more innovative projects in the future.\n",
-  "github": "https://raw.githubusercontent.com/berkayceylan/",
+  "github": "https://github.com/berkayceylan/",
   "instagram": "https://www.instagram.com/berkayceylan150/",
   "facebook": "https://www.facebook.com/berkay150/",
   "linkedIn": "https://www.linkedin.com/in/berkay-ceylan-1271591b4/",
@@ -359,6 +360,35 @@
       "project_url_name": "Full Image Infographic",
       "short_detail": "Education Material",
       "detail": "As an educator, I strongly believe in the importance of promoting environmental awareness among my students. To achieve this, I created an infographic on biodiversity using Photoshop. The infographic is designed to highlight the various types of species found on our planet and their significance in maintaining a healthy ecosystem. I used a combination of text, images, and icons to provide a comprehensive overview of the topic. The design is visually appealing and easy to understand, making it an effective tool for engaging students. The biodiversity infographic has been used in my classroom to help students understand the importance of preserving and protecting our natural environment. Overall, this project demonstrates my passion for environmental education and my proficiency in graphic design tools to create impactful visual aids.\n\n\n ** I didn't create it from scratch I found an image and modified it **"
+    },
+    {
+      "name": "15_puzzle_flutter",
+      "title": "15 Puzzle Game",
+      "is_education": false,
+      "flag": "Flutter",
+      "category": "Flutter",
+      "tags": [
+        "Puzzle game",
+        "UI/UX Design",
+        "Mobile App",
+        "Website",
+        "Classic Game"
+      ],
+      "techs": [
+        "Flutter",
+        "Dart"
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/berkayceylan/15_puzzle_flutter/master/ss/web_ss_2.png",
+      "images": [
+        "https://raw.githubusercontent.com/berkayceylan/15_puzzle_flutter/master/ss/phone_ss_1.jpg",
+        "https://raw.githubusercontent.com/berkayceylan/15_puzzle_flutter/master/ss/phone_ss_2.jpg",
+        "https://raw.githubusercontent.com/berkayceylan/15_puzzle_flutter/master/ss/phone_ss_3.jpg",
+        "https://raw.githubusercontent.com/berkayceylan/15_puzzle_flutter/master/ss/phone_ss_4.jpg"
+      ],
+      "project_url": "https://github.com/berkayceylan/15_puzzle_flutter",
+      "project_url_name": "Project Page",
+      "short_detail": "Puzzle Game",
+      "detail": "I developed a mobile application called Fifteen Puzzle Game using Flutter and Dart. This app is a classic sliding puzzle game in which the player must arrange the numbered tiles on a 4x4 grid in numerical order. The game features a customizable timer and move counter to challenge the player's speed and problem-solving skills. This project demonstrates my proficiency in mobile app development using Flutter, as well as my ability to create engaging and user-friendly interfaces."
     },
     {
       "name": "music_player_electronjs",
